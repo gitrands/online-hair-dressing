@@ -1,0 +1,25 @@
+# Ignore application configuration files
+**/application.yml
+
+# Ignore sensitive environment files
+.env
+
+# Ignore IDE and editor files
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# Ignore build outputs
+target/
+build/
+dist/
+
+# Ignore log files
+*.log
+
+# Ignore node modules
+node_modules/
+npm-debug.log
+yarn-error.log
